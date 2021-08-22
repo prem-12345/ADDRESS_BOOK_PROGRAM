@@ -1,18 +1,9 @@
 package com.bridgelabz.addressbook;
 import java.util.Scanner;
 
-/**
- * UC1 ABILITY TO CREATE CONTACTS IN ADDRESS BOOK
- *
- * @author prem
- * @version 10.1
- * @since 21/08/2021
- */
-
 public class Contact {
 
     Scanner sc = new Scanner(System.in);
-
     private String firstName;
     private String lastName;
     private String address;
@@ -152,14 +143,6 @@ public class Contact {
                 Long phoneNumber = sc.nextLong();
                 setPhoneNumber(phoneNumber);
                 break;
-
-            /**
-             * UC4 ABILITY TO DELETE EXISTING CONTACT PERSON USING THEIR NAME
-             *
-             * @author prem
-             * @version 10.4
-             * @since 21/08/2021
-             */
 
             case 'I':
                 setFirstName(null);
