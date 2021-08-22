@@ -1,4 +1,5 @@
 package com.bridgelabz.addressbook;
+
 import java.util.Scanner;
 
 public class Contact {
@@ -155,10 +156,6 @@ public class Contact {
                 setPhoneNumber(null);
 
         }
+
     }
 }
-
-
-
-
-
