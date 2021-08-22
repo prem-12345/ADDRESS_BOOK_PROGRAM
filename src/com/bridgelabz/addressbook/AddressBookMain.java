@@ -14,6 +14,7 @@ public class AddressBookMain {
          */
 
         getInput();
+
     }
 
     /**
@@ -23,6 +24,7 @@ public class AddressBookMain {
      * @version 10.2
      * @since 21/08/2021
      */
+
     public static void getInput() {
         Scanner input = new Scanner(System.in);
 
@@ -44,7 +46,22 @@ public class AddressBookMain {
         Long phoneNumber = input.nextLong();
 
         Contact person = new Contact(firstName, lastName, address, city, state, email, zipcode, phoneNumber);
+
         person.display();
+
+        /**
+         * UC3 ABILITY TO EDIT EXISTING CONTACT PERSON USING THEIR NAME
+         *
+         * @author prem
+         * @version 10.3
+         * @since 21/08/2021
+         */
+
+        person.editDetails();
+
+        person.display();
+
     }
+
 }
 
