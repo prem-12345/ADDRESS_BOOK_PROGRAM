@@ -153,6 +153,14 @@ public class Contact {
                 setPhoneNumber(phoneNumber);
                 break;
 
+            /**
+             * UC4 ABILITY TO DELETE EXISTING CONTACT PERSON USING THEIR NAME
+             *
+             * @author prem
+             * @version 10.4
+             * @since 21/08/2021
+             */
+
             case 'I':
                 setFirstName(null);
                 setLastName(null);
